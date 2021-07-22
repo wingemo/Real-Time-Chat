@@ -15,7 +15,7 @@ Whenever you write a chat message, the idea is that the server will get it and p
 git clone https://github.com/wingemo/Real-Time-Chat.git
 ```
 
-2. Change dictionary :man_technologist:
+2. Change dictionary
 ```sh
 cd Real-Time-Chat
 ```

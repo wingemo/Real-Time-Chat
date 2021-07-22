@@ -19,13 +19,13 @@ git clone https://github.com/wingemo/Real-Time-Chat.git
 ```sh
 cd Real-Time-Chat
 ```
-
+:koala:
 3. Run the following to install the dependencies 
 ```sh
 npm install
 ```
 
-4. Start the server :pray:
+4. Start the server
 ```sh
 npm run dev
 ```

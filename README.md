@@ -34,7 +34,7 @@ npm run dev
 | Name  | About |
 | ------------- | ------------- |
 | src/index.js  | Content Cell  |
-| Content Cell  | Content Cell  |
+| client/index.html  | Content Cell  |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 

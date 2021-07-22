@@ -14,7 +14,7 @@ Whenever you write a chat message, the idea is that the server will get it and p
 ```sh
 git clone https://github.com/wingemo/Real-Time-Chat.git
 ```
-
+:gorilla:
 2. Change dictionary
 ```sh
 cd Real-Time-Chat

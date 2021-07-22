@@ -35,7 +35,7 @@ npm run dev
 | ------------- | ------------- |
 | src/index.js  | Back end  |
 | client/index.html  | Client html page |
-| client/client.js  | HTML DOM tree traversal and manipulation, as well as event handling  |  |
+| client/client.js  | Socket.io client library |
 
 ## Documentation :man_student:
 

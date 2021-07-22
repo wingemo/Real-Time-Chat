@@ -20,7 +20,7 @@ git clone https://github.com/wingemo/Real-Time-Chat.git
 cd Real-Time-Chat
 ```
 
-Run the following to install the dependencies 
+3. Run the following to install the dependencies 
 ```sh
 npm install
 ```

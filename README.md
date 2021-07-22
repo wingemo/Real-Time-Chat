@@ -13,7 +13,7 @@ First, you need to create a wallet and fund it.
 git clone
 ```
 
-2. Clone this repo
+2. Change dictionary
 ```sh
 cd Real-Time-Chat
 ```

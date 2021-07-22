@@ -8,7 +8,7 @@ Whenever you write a chat message, the idea is that the server will get it and p
 
 > client -> server -> clients
 
-## Setup
+## Setup :mechanic:
 
 1. Clone this repo
 ```sh

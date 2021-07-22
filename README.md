@@ -1,7 +1,7 @@
 # Real-Time-Chat :speech_balloon:
 ![GitHub Logo](https://img.shields.io/badge/Version-1.0.0-blue) ![GitHub Logo](https://img.shields.io/badge/-Socket.io-blue) ![GitHub Logo](https://img.shields.io/badge/-Node.js-blue) 
 
-Real-time bidirectional event-based chat application (Socket.io, Node.js).
+Real-time bidirectional event-based chat application (Socket.io, Node.js) :rhinoceros:
 
 ## A basic chat application
 Whenever you write a chat message, the idea is that the server will get it and push it to all other connected clients :earth_americas:.
@@ -10,22 +10,22 @@ Whenever you write a chat message, the idea is that the server will get it and p
 
 ## Setup 
 
-:rhinoceros: 1. Clone this repo
+1. Clone this repo
 ```sh
 git clone https://github.com/wingemo/Real-Time-Chat.git
 ```
 
-:gorilla: 2. Change dictionary
+2. Change dictionary
 ```sh
 cd Real-Time-Chat
 ```
 
-:koala: 3. Run the following to install the dependencies 
+Run the following to install the dependencies 
 ```sh
 npm install
 ```
 
-:pray: 4. Start the server
+4. Start the server :pray:
 ```sh
 npm run dev
 ```

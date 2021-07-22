@@ -29,6 +29,8 @@ npm run dev
 ```
 
 ## Documentation
-If you want to learn more, see the following resources:
 
 - [Socket.io](https://socket.io/docs/v4) 
+- [Node.js](https://socket.io/docs/v4) 
+- [Jquery](https://socket.io/docs/v4) 
+- [Bootstrap](https://socket.io/docs/v4) 

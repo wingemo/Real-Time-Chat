@@ -31,8 +31,10 @@ npm run dev
 ```
 ## Files
 
-| First Header  | Second Header |
+| Name  | About |
 | ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 

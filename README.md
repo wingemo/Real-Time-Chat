@@ -33,7 +33,7 @@ npm run dev
 
 | Name  | About |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
+| src/ index.js  | Content Cell  |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |

@@ -33,8 +33,8 @@ npm run dev
 
 | Name  | About |
 | ------------- | ------------- |
-| src/index.js  | Socket.io Back-end  |
-| client/index.html  | Client html page |
+| src/index.js  | Socket.io back-end  |
+| client/index.html  | Client-side html page |
 | client/client.js  | Socket.io client-side |
 
 ## Documentation :man_student:

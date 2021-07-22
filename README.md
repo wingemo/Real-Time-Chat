@@ -29,8 +29,6 @@ npm run dev
 ```
 
 ## Documentation
-
-You deployed an Airnode, made a request to it and received the response at the contract.
 If you want to learn more, see the following resources:
 
 - [Socket.io](https://socket.io/docs/v4) 

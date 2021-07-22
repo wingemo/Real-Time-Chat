@@ -11,6 +11,7 @@ First, you need to create a wallet and fund it.
 1. Clone this repo
 ```sh
 git clone
+cd Real-Time-Chat
 ```
 
 2. Run the following to install the dependencies

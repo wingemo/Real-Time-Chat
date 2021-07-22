@@ -33,7 +33,7 @@ npm run dev
 
 | Name  | About |
 | ------------- | ------------- |
-| src/index.js  | Content Cell  |
+| src/index.js  | Socket.io server side  |
 | client/index.html  | Client html page |
 | client/client.js  | Content Cell  |
 

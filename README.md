@@ -9,6 +9,10 @@ Whenever you write a chat message, the idea is that the server will get it and p
 First, you need to create a wallet and fund it.
 
 1. Clone this repo
+```sh
+git clone
+```
+
 2. Run the following to install the dependencies
 ```sh
 npm install

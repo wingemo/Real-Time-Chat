@@ -34,8 +34,8 @@ npm run dev
 | Name  | About |
 | ------------- | ------------- |
 | src/index.js  | Socket.io back-end  |
-| client/index.html  | Web page |
 | client/client.js  | Socket.io client-side |
+| client/index.html  | Web page |
 
 ## Documentation :man_student:
 

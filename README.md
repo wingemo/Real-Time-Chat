@@ -9,23 +9,23 @@ Whenever you write a chat message, the idea is that the server will get it and p
 > client -> server -> clients
 
 ## Setup 
-:rhinoceros:
-1. Clone this repo
+
+:rhinoceros: Clone this repo
 ```sh
 git clone https://github.com/wingemo/Real-Time-Chat.git
 ```
-:gorilla:
-2. Change dictionary
+
+:gorilla: Change dictionary
 ```sh
 cd Real-Time-Chat
 ```
-:koala:
-3. Run the following to install the dependencies 
+
+:koala: Run the following to install the dependencies 
 ```sh
 npm install
 ```
-:pray:
-4. Start the server
+
+:pray: Start the server
 ```sh
 npm run dev
 ```

@@ -1,5 +1,6 @@
 # Real-Time-Chat
 ![GitHub Logo](https://img.shields.io/badge/-Socket.io-blue)
+
 Real-time bidirectional event-based chat application (Socket.io, Node).
 
 ## A basic chat application

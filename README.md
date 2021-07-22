@@ -11,6 +11,10 @@ First, you need to create a wallet and fund it.
 1. Clone this repo
 ```sh
 git clone
+```
+
+2. Clone this repo
+```sh
 cd Real-Time-Chat
 ```
 

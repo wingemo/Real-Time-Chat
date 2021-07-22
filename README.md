@@ -34,7 +34,7 @@ npm run dev
 | Name  | About |
 | ------------- | ------------- |
 | src/index.js  | Content Cell  |
-| client/index.html  | Content Cell  |
+| client/index.html  | Client html page |
 | client/client.js  | Content Cell  |
 
 ## Documentation :man_student:

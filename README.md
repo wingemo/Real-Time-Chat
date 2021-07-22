@@ -27,3 +27,11 @@ npm install
 ```sh
 npm run dev
 ```
+
+## Conclusion
+
+You deployed an Airnode, made a request to it and received the response at the contract.
+If you want to learn more, see the following resources:
+
+- [API3 whitepaper](https://socket.io/docs/v4) Socket.io documentation
+- [Medium posts](https://api3dao.github.io/api3-docs/pages/medium.html) are a more digestible version of the whitepaper

@@ -6,7 +6,6 @@ const { Server } = require("socket.io");
 const io = new Server(server);
 const path = require('path');
 
-// It serves static file (index.html)
 app.use(express.static(path.join(__dirname, '..', 'client')))
 
 io.on('connection', (socket) => {

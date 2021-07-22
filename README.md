@@ -35,7 +35,7 @@ npm run dev
 | ------------- | ------------- |
 | src/index.js  | Back end  |
 | client/index.html  | Client html page |
-| client/client.js  | Content Cell  |
+| client/client.js  | HTML DOM tree traversal and manipulation, as well as event handling  |  |
 
 ## Documentation :man_student:
 

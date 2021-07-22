@@ -6,7 +6,7 @@ Whenever you write a chat message, the idea is that the server will get it and p
 
 ## Setup
 
-First, you need to create a wallet and fund it.
+The installation consists of 4 steps.
 
 1. Clone this repo
 ```sh

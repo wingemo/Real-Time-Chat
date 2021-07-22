@@ -30,7 +30,7 @@ npm install
 npm run dev
 ```
 
-## Documentation
+## Documentation :man_student:
 
 - [Socket.io](https://socket.io/docs/v4) 
 - [Node.js](https://socket.io/docs/v4) 

@@ -18,7 +18,7 @@ git clone
 cd Real-Time-Chat
 ```
 
-2. Run the following to install the dependencies
+3. Run the following to install the dependencies
 ```sh
 npm install
 ```

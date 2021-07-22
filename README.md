@@ -25,7 +25,7 @@ cd Real-Time-Chat
 npm install
 ```
 
-4. Start the server 
+4. Start the server :pray:
 ```sh
 npm run dev
 ```

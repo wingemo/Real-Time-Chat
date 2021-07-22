@@ -32,4 +32,3 @@ npm run dev
 If you want to learn more, see the following resources:
 
 - [Socket.io](https://socket.io/docs/v4) 
-- [Medium posts](https://api3dao.github.io/api3-docs/pages/medium.html) are a more digestible version of the whitepaper

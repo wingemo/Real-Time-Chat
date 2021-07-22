@@ -20,3 +20,8 @@ cd Real-Time-Chat
 ```sh
 npm install
 ```
+
+4. Start the server 
+```sh
+npm run dev
+```

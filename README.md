@@ -1,4 +1,4 @@
-# socket.io-chat-application :speech_balloon:
+# socket.io-chat-app :speech_balloon:
 ![GitHub Logo](https://img.shields.io/badge/Version-1.0.0-blue) ![GitHub Logo](https://img.shields.io/badge/-Socket.io-blue) ![GitHub Logo](https://img.shields.io/badge/-Node.js-blue)  
 
 Real-time bidirectional event-based chat application (Socket.io, Node.js) :shark:

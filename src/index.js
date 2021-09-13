@@ -7,7 +7,14 @@ const io = new Server(server);
 const model = require("./model");
 const path = require('path');
 
-app.use(express.static(path.join(__dirname, '..', 'client')))
+/**
+ * Initialize constant with an array of strings.
+ * Loop through each item in the array and print
+ * it to the console.
+ */
+app.get('/', function (req, res) {
+  res.send('hello world')
+})
 
 /**
  * Initialize constant with an array of strings.

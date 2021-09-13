@@ -22,7 +22,7 @@ io.on('connection', (socket) => {
       io.emit('create', data);
   });
   socket.on('delete', (data) => {
-      model.create(data);
+      model.delete(data);
       io.emit('delete', data);
   });
 });

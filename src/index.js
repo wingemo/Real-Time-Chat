@@ -18,11 +18,11 @@ io.on('connection', (socket) => {
 // New 
 io.on('connection', (socket) => {
   socket.on('create', (input) => {
-      response = model.create(input);
+      response = await model.create(input);
       io.emit('create', response);
   });
   socket.on('delete', (input) => {
-      response = model.delete(input);
+      response = await model.delete(input);
       io.emit('delete', response);
   });
 });

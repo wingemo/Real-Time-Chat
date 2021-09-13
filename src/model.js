@@ -5,6 +5,7 @@ const accountSchema = new Schema({
   accountnumber: {
     type: String,
     required: true,
+    unique: true,
   },
   identitynumber: {
     type: String,
@@ -13,7 +14,6 @@ const accountSchema = new Schema({
   accountbalance: {
     type: String,
     required: true,
-    unique: true,
   }
 });
 

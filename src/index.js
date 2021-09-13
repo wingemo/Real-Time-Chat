@@ -23,7 +23,6 @@ io.on('connection', (socket) => {
       response = await model.update(input);
       io.emit('update', response);
   });
-
 });
 
 server.listen(3000, () => {

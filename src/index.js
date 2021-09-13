@@ -20,7 +20,7 @@ io.on('connection', (socket) => {
       io.emit('delete', response);
   });
   socket.on('update', (input) => {
-      const data = await model.findOne(info)
+      const data = await model.findOne(input)
       data.accountbalance = input;
       io.emit('update', await doc.save());
   });

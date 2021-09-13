@@ -12,8 +12,8 @@ app.use(express.static(path.join(__dirname, '..', 'client')))
 io.on('connection', (socket) => {
   io.to(socket.id).emit(model.read());
   socket.on('create', (input) => {
-      response = await model.create(input);
-      io.emit('create', response);
+      const data = await model.create(input)
+      io.emit('create', data);
   });
   socket.on('delete', (input) => {
       response = await model.delete(input);

@@ -12,7 +12,7 @@ app.use(express.static(path.join(__dirname, '..', 'client')))
 io.on('connection', (socket) => {
   io.to(socket.id).emit(model.read());
   socket.on('create', (input) => {
-      const data = await model.create(input)
+      data = await model.create(input)
       io.emit('create', data);
   });
   socket.on('delete', (input) => {

@@ -12,15 +12,16 @@ app.use(express.static(path.join(__dirname, '..', 'client')))
 io.on('connection', (socket) => {
   io.to(socket.id).emit(model.read());
   socket.on('create', (input) => {
-      data = await model.create(input)
-      io.emit('create', data);
+      io.emit('create', await model.create(input));
   });
   socket.on('delete', (input) => {
       response = await model.delete(input);
       io.emit('delete', response);
   });
   socket.on('update', (input) => {
-      response = await model.update(input);
+      const doc = await model.findOne(info)
+      doc.slug = input;
+      await doc.save()
       io.emit('update', response);
   });
 });

@@ -17,9 +17,9 @@ io.on('connection', (socket) => {
 
 // New 
 io.on('connection', (socket) => {
-  socket.on('create', (data) => {
-      model.create(data);
-      io.emit('create', data);
+  socket.on('create', (input) => {
+      response = model.create(input);
+      io.emit('create', response);
   });
   socket.on('delete', (input) => {
       response = model.delete(input);

@@ -10,9 +10,9 @@ const path = require('path');
 app.use(express.static(path.join(__dirname, '..', 'client')))
 
 io.on('connection', (socket) => {
-  io.to(socket.id).emit(model.read());
+  io.to(socket.id).emit(await model.find());
   socket.on('create', (input) => {
-      const data = await model.create(input))
+      const data = await model.create(input));
       io.emit('create', data);
   });
   socket.on('delete', (input) => {
@@ -20,7 +20,7 @@ io.on('connection', (socket) => {
       io.emit('delete', response);
   });
   socket.on('update', (input) => {
-      const data = await model.findOne(input)
+      const data = await model.findOne(input);
       data.accountbalance = input;
       io.emit('update', await doc.save());
   });

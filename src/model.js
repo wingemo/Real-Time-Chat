@@ -1,6 +1,5 @@
 import mongoose from 'mongoose';
 
-
 const { Schema } = mongoose;
 const accountSchema = new Schema({
   accountnumber: {

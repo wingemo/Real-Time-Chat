@@ -1,14 +1,21 @@
-var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb://localhost:27017/";
+import mongoose from 'mongoose';
 
-MongoClient.connect(url, function(err, db) {
-  if (err) throw err;
-  var dbo = db.db("mydb");
-  var myobj = { name: "Company Inc", address: "Highway 37" };
-  dbo.collection("customers").insertOne(myobj, function(err, res) {
-    if (err) throw err;
-    console.log("1 document inserted");
-    db.close();
-  });
+
+const { Schema } = mongoose;
+const accountSchema = new Schema({
+  accountnumber: {
+    type: String,
+    required: true,
+  },
+  identitynumber: {
+    type: String,
+    required: true,
+  },
+  accountbalance: {
+    type: String,
+    required: true,
+    unique: true,
+  }
 });
 
+export default mongoose.model('User', accountSchema);

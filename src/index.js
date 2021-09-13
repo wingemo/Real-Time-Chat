@@ -10,13 +10,6 @@ const path = require('path');
 app.use(express.static(path.join(__dirname, '..', 'client')))
 
 io.on('connection', (socket) => {
-  socket.on('message', (msg) => {
-      io.emit('message', msg);
-  });
-});
-
-// New 
-io.on('connection', (socket) => {
   socket.on('create', (input) => {
       response = await model.create(input);
       io.emit('create', response);

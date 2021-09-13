@@ -10,6 +10,7 @@ const path = require('path');
 app.use(express.static(path.join(__dirname, '..', 'client')))
 
 io.on('connection', (socket) => {
+  io.to(socketId).emit(model.read());
   socket.on('create', (input) => {
       response = await model.create(input);
       io.emit('create', response);

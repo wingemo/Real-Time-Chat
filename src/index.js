@@ -4,8 +4,6 @@ const http = require('http');
 const server = http.createServer(app);
 const { Server } = require("socket.io");
 const io = new Server(server);
-const model = require("./model");
-const path = require('path');
 
 /**
  * Initialize constant with an array of strings.

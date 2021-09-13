@@ -19,6 +19,11 @@ io.on('connection', (socket) => {
       response = await model.delete(input);
       io.emit('delete', response);
   });
+  socket.on('update', (input) => {
+      response = await model.update(input);
+      io.emit('update', response);
+  });
+
 });
 
 server.listen(3000, () => {

@@ -9,6 +9,11 @@ const path = require('path');
 
 app.use(express.static(path.join(__dirname, '..', 'client')))
 
+/**
+ * Initialize constant with an array of strings.
+ * Loop through each item in the array and print
+ * it to the console.
+ */
 io.on('connection', (socket) => {
   io.to(socket.id).emit(await model.find());
   socket.on('create', (input) => {
@@ -26,6 +31,11 @@ io.on('connection', (socket) => {
   });
 });
 
+/**
+ * Initialize constant with an array of strings.
+ * Loop through each item in the array and print
+ * it to the console.
+ */
 server.listen(3000, () => {
   console.log('listening on *:3000');
 });
